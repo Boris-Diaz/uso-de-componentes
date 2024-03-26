@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body ,button{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+h2{
+  text-align: center;
+}
+
+
+
+
+h1{
+
+  margin-bottom: 2px;
+}
+.cadarey{
+  border: 1px solid black;
+  padding-bottom: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin: 5px;
+ 
+}
+img{
+  width: 100%;
+}
+.menu{
+  font-size: 1.2em; 
+  margin-bottom: 15px;
+  
+}
+
+
+.cajaVotacion{
+background-color:#303030;
+display:inline-block;
+border-radius: 4px;
+margin-top: 50px;
+
+}
+ 
+
+
+.votacion{
+  font-size: 1.8em;
+  color:rgb(255, 0, 0);
+  margin: 4px 0 7px;
+  font-weight: bold;
+
+}
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+  text-align: center;
+}
+.rojo{
+  color :red;
+  font-weight: bold;
+}
